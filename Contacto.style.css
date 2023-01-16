@@ -1,0 +1,10 @@
+section{background-image:url("51769.png");
+    background-position: top center;
+        background-size:70vw;background-blend-mode: soft-light;
+        background-color: rgb(108, 245, 154)}
+body{font-family:Arial; opacity: 0,2;
+    padding: 0vw 15vw 0vw 15vw;
+    background-color:rgb(108, 245, 154);
+    opacity: 0,08;}
+p{font-size: 0,5vw;
+text-align: center;}
