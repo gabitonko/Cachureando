@@ -1,0 +1,30 @@
+section{background-image:url("51769.png");
+    background-position: top center;
+        background-size:70vw;background-blend-mode: soft-light;
+        background-color: rgb(238, 153, 55);
+        margin: 0,005vw;
+        border: 0,03vw;
+        background-repeat: no-repeat;
+        background-attachment: fixed}
+
+    body{ font-family:Arial;width: 60vw; opacity: 0,2;
+        padding: 0vw 15vw 0vw 15vw;
+        background-color:rgb(238, 153, 55);
+        opacity: 0,08;}
+
+    h1{text-align:center;text-transform:uppercase;color:#330841;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color:rgb(255, 99, 71); font: size 40vw;}
+    h2{text-align:center;text-transform:uppercase;color:#300642;border:0,02vw solid Violet;}
+    h3{text-align:right; color: rgb(99, 27, 27); font-size: 0,1vw;}
+    h4{text-align: right; color: blueviolet;font-size: 0,1vw;}
+    h5{float: right;}
+    h6{float: left;}
+    header{text-align:center; font-size: x-large;}
+    footer{color:crimson;font-family:cursive;text-align:end; font-size: 0,2vw;}
+    p{font-style:italic;color:#251603; font-weight: 0,2vw;}
+    div.relative{position: relative;
+            width: 0,4vw;
+            height: 0,2vw;
+            border: 0,03vw solid #a72691;
+            font-size: 2vw;}
