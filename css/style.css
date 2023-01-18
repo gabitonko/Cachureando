@@ -1,0 +1,23 @@
+.encabezado h1 {
+    outline-color: aqua;
+    color: red;
+}
+
+.encabezado li{
+    font: bold;
+    display: inline-block;
+}
+
+.contenedor-imagenes .img{
+    width: 32%;
+    height: 250px;
+    margin-bottom: 5px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .75);
+    border-color: aqua;
+    border-radius: 0,2%;
+}
+
+.pie p{
+    background-color: rgb(84, 12, 105);
+    padding: 1rem;
+}
