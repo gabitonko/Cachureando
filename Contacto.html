@@ -5,20 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formulario</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
-  <link rel="stylesheet" href="Contacto.style.css">
+  <link rel="stylesheet" href="css\Contacto.style.css">
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
 </head>
 <body>
-<h1>¿En qué te ayudamos?</h1>
-Nombre  &#128512<br>
-<input type="text" name="Nombre dueño" size="60vw" ><br>
-Nombre de la mascota &#128151<br>
-<input type="text" name="Nombre mascota" size="60vw" ><br>
-Correo<br>
-<input type="text" name="correo contacto" size="80vw"><br>
-<textarea name="text" rows="30" cols="60">Escribe en qué podemos ayudarle</textarea><br>
-<button>Enviar</button>
+  <header class="encabezado" id="volver"> <h1>Cachurenado</h1>
+    <nav>
+        <ul=1>
+            <a href="Pagina Principal.html">Inicio</a>
+            <a href="#">|</a>
+         <a href="Contacto.html">Contacto</a>
+        </ul>
+    </nav>
+</header>
+<h2>¿En qué te ayudamos?</h2>
 
+  <div class="formulario1">
+    Nombre  &#128512<br>
+    <input class="controls" type="text" name="nombres"  id="nombres" placeholder="Ingresa tu nombre" size="60vw" ><br>
+    Nombre de la mascota &#128151<br>
+    <input class="controls" type="text" name="nmascota" id="mascota" placeholder="Ingresa nombre de su mascota" size="60vw" ><br>
+    Correo<br>
+    <input class="controls" type="text" name="correo" id="correo" placeholder="Ingrese su correo" size="60vw"><br>
+    <textarea name="mensaje" id="mensaje" rows="20" cols="20" placeholder="Escriba en qué podemos ayudarle"></textarea><br>
+    <button>Enviar</button>
+
+  </div>
 </body>
 </html>
